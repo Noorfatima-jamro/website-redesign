@@ -1,0 +1,194 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family:Helvetica, Arial, sans-serif;
+    margin: 20px;
+    text-align: left;
+
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.title {
+    text-align: left;
+}
+.title h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.title p {
+    font-size: 18px;
+    color: #555;
+}
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.image-box {
+    width: 48%;
+    text-align: left;
+}
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.caption {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+.logo {
+    text-align: right;
+
+}
+.logo img {
+    width: 150px;
+}
+
+/* Main Article Styling */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5em;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+    color:blue;
+}
+h5{
+    text-align: left;
+
+}
+
+/* Paragraph and Text */
+p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.container {
+    text-align: left;
+    margin-top: 20px;
+}
+.presenter {
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.company-logo {
+    margin-top: 20px;
+    
+
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Spacing */
+section {
+    margin-bottom: 40px;
+}
+.slide-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+}
+.description {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+.image-section {
+    margin-top: 20px;
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.class .logo {
+    text-align: right;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+.header-text {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.presented-by {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.presented-by b {
+    font-size: 20px;
+}
+
+.link {
+    color: blue;
+}
